@@ -1,7 +1,12 @@
 # ecom-synth
-Synthetic e-commerce dataset generator, SQLite ingestion, and join query example.
 
-Steps:
-1. python generate_data.py
-2. python ingest_sqlite.py
-3. python query_and_export.py
+A simple synthetic E-Commerce data pipeline built using Python and SQLite.
+The project was developed in Cursor IDE as part of an A-SDLC exercise.
+
+## Features
+- Generates ~5 synthetic CSV datasets (customers, products, orders, etc.)
+- Ingests all generated data into a SQLite database (`ecom.db`)
+- Performs a multi-table JOIN using SQL
+- Exports the final joined result to `output/order_lines.csv`
+
+## Project Structure
